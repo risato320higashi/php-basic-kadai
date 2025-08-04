@@ -25,9 +25,11 @@
             <tr>
                 <td>所属部署</td>
                 <td>
-                    <input type="radio" name="department" value="開発部" checked>開発部
-                    <input type="radio" name="department" value="営業部">営業部
-                    <input type="radio" name="department" value="人事部">人事部
+                    <select name="department">
+                        <option value="開発部">開発部</option>
+                        <option value="営業部">営業部</option>
+                        <option value="人事部">人事部</option>
+                    </select>
                 </td>
             </tr>
         </table>
