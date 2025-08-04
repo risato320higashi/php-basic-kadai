@@ -42,7 +42,7 @@ if (empty($age)) {
             <td><?php echo $age; ?></td>
         </tr>
         <tr>
-            <td>開発部</td>
+            <td>所属部署</td>
             <td><?php echo $department; ?></td>
         </tr>
     </table>
